@@ -37,3 +37,5 @@ class CoffeeMaker:
     def make_latte(self, amt_paid):
         # TODO: code this method
         return -1
+
+# Test commit
