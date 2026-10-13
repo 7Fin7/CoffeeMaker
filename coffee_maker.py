@@ -23,8 +23,8 @@ class CoffeeMaker:
 
     # Adds ingredients to the coffee maker
     def add_ingredients(self, amt_coffee, amt_milk):
-        # TODO: code this method
-        pass
+        self.coffee += amt_coffee
+        self.milk += amt_milk
 
     # Make an espresso and return the change, or the user's money if the espresso cannot be made.
     # An espresso uses one unit of coffee and costs one pound.
